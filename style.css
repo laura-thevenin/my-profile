@@ -1,0 +1,104 @@
+body {
+	background-color: rgb(246,245,241);
+	color: rgb(137,139,138);
+	font-family: Ebrima;
+	font-size: 16px;
+}
+
+
+h1{
+	color : rgb(22,165,150);
+	font-family: Montserrat, sans-serif;
+	font-size: 35px
+	font-weight: normal;
+	letter-spacing: 4;
+	text-align: center;
+}
+
+h2{
+	color: rgb(250,224,223);
+	font-family: Ebrima;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(22,165,150);
+	font-style: bold; 
+}
+
+a:hover {
+	color: rgb(246,245,241);
+}
+
+/*Custom design with class*/
+
+#container{
+	display: block;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.box-white{
+   background: white;
+   padding: 20px;
+   margin: 50px;
+   box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+   border-radius: 6px;
+   text-align: center;
+}
+
+.btn-grey {
+	background-color:rgb(250,224,223); 
+	padding: 10px 15px;
+	border-radius: 6px;
+}
+
+.btn-grey:hover {
+	background-color: rgb(22,165,150);
+}
+
+#profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; 
+}
+
+
+@media (max-width: 600px){
+	#container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 250px){
+	#container {
+		width: 220px;
+	}
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: rgb(250,224,223);
+}
+
+/*Design ajustments using id (1% design remaining)*/
+#introduction p {
+	margin-bottom: 40px;
+}
